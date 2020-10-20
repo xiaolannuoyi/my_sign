@@ -30,7 +30,7 @@ async function start() {
   await exec("node src/iqiyi.js >> my.txt");
   console.log('爱奇艺执行完毕')
   await exec("node src/mangguo.js >> my.txt");
-  console.log('爱奇艺执行完毕')
+  console.log('芒果TV执行完毕')
   
   if (serverJ) {
     const path = "./my.txt";
