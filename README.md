@@ -10,13 +10,13 @@
 
    复制cookie，cookie比较长，注意复制完整。
 
-   ![image-20201014171956894](/Users/liujinyuan/Library/Application Support/typora-user-images/image-20201014171956894.png)
+  ![image-20201014171956894](https://gitee.com/xiaolannuoyi/my_drawing_bed/raw/master/image/image-20201014171956894.png)
 
 2. 存cookie
 
    将cookie存到 项目内的`Settings->secrets`中，并设置👇的变量名即可。
 
-   ![image-20201014171323785](/Users/liujinyuan/Library/Application Support/typora-user-images/image-20201014171323785.png)
+  ![image-20201014171323785](https://gitee.com/xiaolannuoyi/my_drawing_bed/raw/master/image/image-20201014171323785.png)
 
 3. 微信通知（server酱key）
 
