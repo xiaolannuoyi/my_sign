@@ -1,6 +1,4 @@
 // version v0.0.1
-// create by ruicky
-// detail url: https://github.com/ruicky/jd_sign_bot
 
 const exec = require('child_process').execSync
 const fs = require('fs')
@@ -31,6 +29,10 @@ async function start() {
   console.log('爱奇艺执行完毕')
   await exec("node src/mangguo.js >> my.txt");
   console.log('芒果TV执行完毕')
+  await exec("node src/mukewang.js >> my.txt");
+  console.log('慕课网执行完毕')
+  await exec("node src/baidupan.js >> my.txt");
+  console.log('百度网盘执行完毕')
   
   if (serverJ) {
     const path = "./my.txt";
@@ -38,7 +40,7 @@ async function start() {
     if (fs.existsSync(path)) {
       content = fs.readFileSync(path, "utf8");
     }
-    await sendNotify("视频签到-" + new Date().toLocaleDateString(), content);
+    await sendNotify("我的签到-" + new Date().toLocaleDateString(), content);
     console.log('发送结果完毕')
   }
 }
