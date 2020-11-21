@@ -29,6 +29,10 @@
    * [移动-cookie] [网站地址](https://m.iqiyi.com/) 变量名 `IQIYI_COOKIE_MO`
 2. 芒果-积分签到 [pc][移动]
    * [cookie] [网站地址](https://www.mgtv.com/) 变量名 `MANGGUO_COOKIE`
+3. 百度网盘-积分签到 [移动]
+   * [cookie] [网站地址]() 变量名 `BAIDUPAN_COOKIE_MO`
+4. 慕课网-积分签到 [移动]
+   * [cookie] [网站地址]() 变量名 `MUKEWANG_COOKIE_MO`
 
 
 
