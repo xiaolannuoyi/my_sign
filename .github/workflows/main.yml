@@ -25,3 +25,5 @@ jobs:
                 IQIYI_COOKIE_PC: ${{ secrets.IQIYI_COOKIE_PC }}
                 IQIYI_COOKIE_MO: ${{ secrets.IQIYI_COOKIE_MO }}
                 MANGGUO_COOKIE: ${{ secrets.MANGGUO_COOKIE }}
+                BAIDUPAN_COOKIE_MO: ${{ secrets.BAIDUPAN_COOKIE_MO }}
+                MUKEWANG_COOKIE_MO: ${{ secrets.MUKEWANG_COOKIE_MO }}
