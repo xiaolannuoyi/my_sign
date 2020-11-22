@@ -25,10 +25,10 @@ async function sendNotify (text,desp) {
 
 async function start() {
   // 执行
-  await exec("node src/iqiyi.js >> my.txt");
-  console.log('爱奇艺执行完毕')
-  await exec("node src/mangguo.js >> my.txt");
-  console.log('芒果TV执行完毕')
+//   await exec("node src/iqiyi.js >> my.txt");
+//   console.log('爱奇艺执行完毕')
+//   await exec("node src/mangguo.js >> my.txt");
+//   console.log('芒果TV执行完毕')
   await exec("node src/mukewang.js >> my.txt");
   console.log('慕课网执行完毕')
   await exec("node src/baidupan.js >> my.txt");
