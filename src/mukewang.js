@@ -28,7 +28,7 @@ async function mukewang_mo() {
         if (res.statusCode == 200) {
           // console.log('========', body)
           let result = JSON.parse(body).data.data
-          console.log(`${title} : ${result.sign_days_msg},${result.imsg},${result.reward_msg}\n`)
+          console.log(`${title} : ${result.sign_days_msg},${result.msg},${result.reward_msg}\n`)
         } else {
           console.log(`${title} : 失败\n`)
         }
